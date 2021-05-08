@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Examples/1.0.0": {
+        "dependencies": {
+          "RPG": "1.0.0"
+        },
+        "runtime": {
+          "Examples.dll": {}
+        }
+      },
+      "RPG/1.0.0": {
+        "runtime": {
+          "RPG.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RPG/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

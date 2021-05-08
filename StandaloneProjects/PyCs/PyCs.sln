@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PyCs", "PyCs\PyCs.csproj", "{11719E95-4B76-4DB2-9045-A6AD0EA4D80E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IronPythonApplication1", "IronPythonApplication1\IronPythonApplication1.pyproj", "{F3E5E4A5-090C-456C-9A5E-6299C1833CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11719E95-4B76-4DB2-9045-A6AD0EA4D80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11719E95-4B76-4DB2-9045-A6AD0EA4D80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11719E95-4B76-4DB2-9045-A6AD0EA4D80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11719E95-4B76-4DB2-9045-A6AD0EA4D80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E5E4A5-090C-456C-9A5E-6299C1833CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E5E4A5-090C-456C-9A5E-6299C1833CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B28AF83-80E7-4F82-81BA-F7803A30A1C0}
+	EndGlobalSection
+EndGlobal

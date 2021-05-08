@@ -1,0 +1,12 @@
+D:\Programming\Cs\Lesson\SupportClasses\bin\x64\Release\net5.0\SupportClasses.deps.json
+D:\Programming\Cs\Lesson\SupportClasses\bin\x64\Release\net5.0\SupportClasses.dll
+D:\Programming\Cs\Lesson\SupportClasses\bin\x64\Release\net5.0\ref\SupportClasses.dll
+D:\Programming\Cs\Lesson\SupportClasses\bin\x64\Release\net5.0\SupportClasses.pdb
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.csproj.AssemblyReference.cache
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.AssemblyInfoInputs.cache
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.AssemblyInfo.cs
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.csproj.CoreCompileInputs.cache
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.dll
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\ref\SupportClasses.dll
+D:\Programming\Cs\Lesson\SupportClasses\obj\x64\Release\net5.0\SupportClasses.pdb
