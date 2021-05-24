@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M3BrXuDL+Aeh3pieLAnZzKRSxx8gtwS+ssVKsYZTwXO21s1SR8xQ7X74IYfPOf8xt9186nt61hsJZeUMIURXfA==",
+  "dgSpecHash": "Ayvo4dg0SyxvcJjyRXo4Z9HnGvAksXn6mPIevlPX21C3JtppX8W9Tkjxx6N2hPMaF8c5VrufoADWYNVVPdOMqA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Cs\\Lesson\\Examples\\Examples.csproj",
+  "projectFilePath": "D:\\Programming\\repos\\MiniProjects\\FeatureTests\\Examples.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
   ],

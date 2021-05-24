@@ -1,6 +1,6 @@
 ﻿using System;
 Limilabs.Client.IMAP.Imap imap = new();
-double cashbackVal = 0;
+double cashbackVal = 0; 
 try
 {
     imap.ConnectSSL("imap.mail.ru");

@@ -1,6 +1,6 @@
 ﻿namespace MyLinkedList
 {
-    public class List<T>
+    public class LinkedList<T>
     {
         class Node<V>
         {
@@ -43,7 +43,7 @@
                 this[index] = value;
             }
         }
-        public static explicit operator T[](List<T> l)
+        public static explicit operator T[](LinkedList<T> l)
         {
             var res = new T[l.Size];
             for (int i = 0; i < l.Size; i++)
@@ -58,7 +58,7 @@
         class El
         {
             public int val;
-            public El next = null;
+            public El next = null; // El* next = nullptr;
             public El(int val) => this.val = val;
         }
         public void Add(int val)
@@ -116,6 +116,18 @@
             for (Node<T> temp = bot; temp != null; temp = temp.bot)
                 res += $"{temp.val} ";
             return res;
+        }
+    }
+    class List
+    {
+        int[] arr;
+        int n; 
+        public void Add(int el, int n)
+        {
+            int[] temp = new int[n+1];
+            for (int i = 0; i < n; i++)
+                temp[i] = arr[i];
+            temp[n] = el;
         }
     }
 }
