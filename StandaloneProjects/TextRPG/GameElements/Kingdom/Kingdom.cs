@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using KingdomParameters;
 namespace TextRPG.GameElements.Kingdom
 {
     class Kingdom
     {
+        public PopulationKSP MyProperty { get; set; }
         public Kingdom()
         {
 
