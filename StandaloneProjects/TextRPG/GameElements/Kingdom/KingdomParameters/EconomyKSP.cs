@@ -1,4 +1,5 @@
-﻿namespace TextRPG.GameElements.Kingdom.KingdomParameters
+﻿using System.Windows.Forms;
+namespace TextRPG.GameElements.Kingdom.KingdomParameters
 {
     class EconomyKSP : KingdomStateParameter
     {
