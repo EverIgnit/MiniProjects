@@ -1,5 +1,5 @@
 ﻿using System.Windows.Forms;
-namespace TextRPG.GameElements.KingdomParameters
+namespace TextRPG.GameElements.Kingdom.KingdomParameters
 {
     abstract class KingdomStateParameter
     {

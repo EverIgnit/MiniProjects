@@ -1,4 +1,4 @@
-﻿namespace TextRPG.GameElements.KingdomParameters
+﻿namespace TextRPG.GameElements.Kingdom.KingdomParameters
 {
     /*class ReligionKSP : KingdomStateParameter
     {

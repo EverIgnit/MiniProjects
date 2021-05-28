@@ -31,20 +31,20 @@ namespace TextRPG
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Esterrier));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.military_PBox = new System.Windows.Forms.PictureBox();
+            this.population_PBox = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.military_PB = new System.Windows.Forms.ProgressBar();
+            this.population_PB = new System.Windows.Forms.ProgressBar();
             this.progressBar3 = new System.Windows.Forms.ProgressBar();
             this.progressBar4 = new System.Windows.Forms.ProgressBar();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.current_events_LB = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.military_PBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.population_PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -55,12 +55,12 @@ namespace TextRPG
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.5F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5F));
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.military_PBox, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.population_PBox, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.military_PB, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.population_PB, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.progressBar3, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.progressBar4, 1, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -75,28 +75,28 @@ namespace TextRPG
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::TextRPG.Properties.Resources.cross;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 24);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.military_PBox.BackColor = System.Drawing.Color.Transparent;
+            this.military_PBox.BackgroundImage = global::TextRPG.Properties.Resources.cross;
+            this.military_PBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.military_PBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.military_PBox.InitialImage = null;
+            this.military_PBox.Location = new System.Drawing.Point(3, 3);
+            this.military_PBox.Name = "pictureBox1";
+            this.military_PBox.Size = new System.Drawing.Size(45, 24);
+            this.military_PBox.TabIndex = 0;
+            this.military_PBox.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::TextRPG.Properties.Resources.moneybag;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 33);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 24);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.population_PBox.BackgroundImage = global::TextRPG.Properties.Resources.moneybag;
+            this.population_PBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.population_PBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.population_PBox.InitialImage = null;
+            this.population_PBox.Location = new System.Drawing.Point(3, 33);
+            this.population_PBox.Name = "pictureBox2";
+            this.population_PBox.Size = new System.Drawing.Size(45, 24);
+            this.population_PBox.TabIndex = 1;
+            this.population_PBox.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -121,19 +121,19 @@ namespace TextRPG
             // 
             // progressBar1
             // 
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar1.Location = new System.Drawing.Point(54, 3);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(143, 24);
-            this.progressBar1.TabIndex = 4;
+            this.military_PB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.military_PB.Location = new System.Drawing.Point(54, 3);
+            this.military_PB.Name = "progressBar1";
+            this.military_PB.Size = new System.Drawing.Size(143, 24);
+            this.military_PB.TabIndex = 4;
             // 
             // progressBar2
             // 
-            this.progressBar2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar2.Location = new System.Drawing.Point(54, 33);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(143, 24);
-            this.progressBar2.TabIndex = 5;
+            this.population_PB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.population_PB.Location = new System.Drawing.Point(54, 33);
+            this.population_PB.Name = "progressBar2";
+            this.population_PB.Size = new System.Drawing.Size(143, 24);
+            this.population_PB.TabIndex = 5;
             // 
             // progressBar3
             // 
@@ -202,8 +202,8 @@ namespace TextRPG
             this.Name = "Esterrier";
             this.Text = "Esterrier";
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.military_PBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.population_PBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
@@ -216,12 +216,12 @@ namespace TextRPG
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox military_PBox;
+        private System.Windows.Forms.PictureBox population_PBox;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.ProgressBar military_PB;
+        private System.Windows.Forms.ProgressBar population_PB;
         private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.ProgressBar progressBar4;
     }

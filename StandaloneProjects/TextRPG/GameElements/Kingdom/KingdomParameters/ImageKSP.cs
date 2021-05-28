@@ -3,7 +3,7 @@ using System.Linq;
 using System.IO;
 using System.Drawing;
 
-namespace TextRPG.GameElements.KingdomParameters
+namespace TextRPG.GameElements.Kingdom.KingdomParameters
 {
     class ImageKSP
     {
@@ -24,13 +24,6 @@ namespace TextRPG.GameElements.KingdomParameters
                   .ToArray())
         {
             //Directory.GetFiles(directoryWithImagesName);
-        }
-        /// <summary>
-        /// TODO: Change logic
-        /// </summary>
-        static bool CheckDirectoryForImages(string name) 
-        {
-            return true;
         }
         /// <summary>
         /// TODO: Change logic
