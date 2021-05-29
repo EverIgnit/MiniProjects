@@ -1,4 +1,4 @@
-﻿namespace TextRPG.GameElements.Kingdom
+﻿namespace TextRPG.GameElements.KingdomManagement
 {
     using KingdomParameters;
     class Kingdom

@@ -1,5 +1,5 @@
 ﻿using System;
-using TextRPG.GameElements.Kingdom.KingdomParameters;
+using TextRPG.GameElements.KingdomManagement.KingdomParameters;
 using System.Collections.Generic;
 using System.Collections;
 using System.ComponentModel;

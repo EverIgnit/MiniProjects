@@ -3,7 +3,7 @@ using System.Linq;
 using System.IO;
 using System.Drawing;
 
-namespace TextRPG.GameElements.Kingdom.KingdomParameters
+namespace TextRPG.GameElements.KingdomManagement.KingdomParameters
 {
     class ImageKSP
     {

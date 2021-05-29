@@ -1,10 +1,10 @@
 ﻿using System.Windows.Forms;
-namespace TextRPG.GameElements.Kingdom.KingdomParameters
+namespace TextRPG.GameElements.KingdomManagement.KingdomParameters
 {
     class EconomyKSP : KingdomStateParameter
     {
         public EconomyKSP(ProgressBar progressBar, PictureBox pictureBox)
-            : base(new("../../../Resources/economyKSP"),pictureBox,progressBar)
+            : base(new("../../../Resources/kingdom/icons_KSP/economy"),pictureBox,progressBar)
         {
 
         }
