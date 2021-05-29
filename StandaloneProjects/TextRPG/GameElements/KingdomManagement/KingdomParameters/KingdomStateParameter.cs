@@ -1,6 +1,9 @@
 ﻿using System.Windows.Forms;
 namespace TextRPG.GameElements.KingdomManagement.KingdomParameters
 {
+    /// <summary>
+    /// TODO: Вынести элементы отображения в отдельный класс KingdomStateParameterView (нужны ли нам ReligionKSPView и т.д.?)
+    /// </summary>
     abstract class KingdomStateParameter
     {
         private readonly int _maxValue = 10;

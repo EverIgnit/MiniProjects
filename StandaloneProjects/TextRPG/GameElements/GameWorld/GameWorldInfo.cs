@@ -5,5 +5,9 @@ namespace TextRPG.GameElements.GameWorld
     class GameWorldInfo
     {
         public Kingdom UserKingdom { get; set; }
+        public GameWorldInfo(Kingdom userKingdom)
+        {
+            UserKingdom = userKingdom;
+        }
     }
 }
