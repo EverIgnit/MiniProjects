@@ -3,16 +3,13 @@
     using KingdomParameters;
     class Kingdom
     {
-        public PopulationKSP Population { get; init; }
-        public EconomyKSP Economy { get; init; }
-        public MilitaryKSP Military { get; init; }
-        public ReligionKSP Religion { get; init; }
-        public Kingdom(PopulationKSP population, EconomyKSP economy, MilitaryKSP military, ReligionKSP religion)
+        public PopulationKSP Population { get; set; }
+        public EconomyKSP Economy { get; set; }
+        public MilitaryKSP Military { get; set; }
+        public ReligionKSP Religion { get; set; }
+        public Kingdom()
         {
-            Population = population;
-            Economy = economy;
-            Military = military;
-            Religion = religion;
+
         }
     }
 }

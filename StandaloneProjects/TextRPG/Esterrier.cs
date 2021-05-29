@@ -14,14 +14,11 @@ namespace TextRPG
 {
     public partial class Esterrier : Form
     {
-        private GameElements.GameWorld.GameWorldInfo GameWorld { get; init; } 
         public Esterrier()
         {
             InitializeComponent();
-            GameWorld = new(new(new(populationProgressBar, populationPictureBox),
-                new(economyProgressBar,economyPictureBox),
-                new(militaryProgressBar,militaryPictureBox),
-                new(religionProgressBar,religionPicturBox)));
+            new MilitaryKSP(military_PB, military_PBox);
+            new PopulationKSP(population_PB, population_PBox);
         }
 
         private void Current_events_LB_MouseEnter(object sender, EventArgs e)
