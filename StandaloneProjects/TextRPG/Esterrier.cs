@@ -12,6 +12,9 @@ using System.Windows.Forms;
 
 namespace TextRPG
 {
+    /// <summary>
+    /// TODO: center label automatically, progressbar visual changes, justify-content analogue
+    /// </summary>
     public partial class Esterrier : Form
     {
         private GameElements.GameWorld.GameWorldInfo GameWorld { get; init; } 
