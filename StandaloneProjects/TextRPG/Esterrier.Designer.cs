@@ -31,22 +31,22 @@ namespace TextRPG
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Esterrier));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.military_PBox = new System.Windows.Forms.PictureBox();
-            this.population_PBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.military_PB = new System.Windows.Forms.ProgressBar();
-            this.population_PB = new System.Windows.Forms.ProgressBar();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.militaryPictureBox = new System.Windows.Forms.PictureBox();
+            this.populationPictureBox = new System.Windows.Forms.PictureBox();
+            this.economyPictureBox = new System.Windows.Forms.PictureBox();
+            this.religionPicturBox = new System.Windows.Forms.PictureBox();
+            this.militaryProgressBar = new System.Windows.Forms.ProgressBar();
+            this.populationProgressBar = new System.Windows.Forms.ProgressBar();
+            this.economyProgressBar = new System.Windows.Forms.ProgressBar();
+            this.religionProgressBar = new System.Windows.Forms.ProgressBar();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.current_events_LB = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.military_PBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.population_PBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.militaryPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.populationPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.economyPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.religionPicturBox)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -55,107 +55,107 @@ namespace TextRPG
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.5F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5F));
-            this.tableLayoutPanel1.Controls.Add(this.military_PBox, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.population_PBox, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.military_PB, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.population_PB, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar3, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar4, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.militaryPictureBox, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.populationPictureBox, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.economyPictureBox, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.religionPicturBox, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.militaryProgressBar, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.populationProgressBar, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.economyProgressBar, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.religionProgressBar, 1, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(229, 133);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(259, 248);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
-            // military_PBox
+            // militaryPictureBox
             // 
-            this.military_PBox.BackColor = System.Drawing.Color.Transparent;
-            this.military_PBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.military_PBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.military_PBox.InitialImage = null;
-            this.military_PBox.Location = new System.Drawing.Point(3, 4);
-            this.military_PBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.military_PBox.Name = "military_PBox";
-            this.military_PBox.Size = new System.Drawing.Size(52, 31);
-            this.military_PBox.TabIndex = 0;
-            this.military_PBox.TabStop = false;
+            this.militaryPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.militaryPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.militaryPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.militaryPictureBox.InitialImage = null;
+            this.militaryPictureBox.Location = new System.Drawing.Point(3, 4);
+            this.militaryPictureBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.militaryPictureBox.Name = "militaryPictureBox";
+            this.militaryPictureBox.Size = new System.Drawing.Size(60, 54);
+            this.militaryPictureBox.TabIndex = 0;
+            this.militaryPictureBox.TabStop = false;
             // 
-            // population_PBox
+            // populationPictureBox
             // 
-            this.population_PBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.population_PBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.population_PBox.InitialImage = null;
-            this.population_PBox.Location = new System.Drawing.Point(3, 43);
-            this.population_PBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.population_PBox.Name = "population_PBox";
-            this.population_PBox.Size = new System.Drawing.Size(52, 31);
-            this.population_PBox.TabIndex = 1;
-            this.population_PBox.TabStop = false;
+            this.populationPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.populationPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.populationPictureBox.InitialImage = null;
+            this.populationPictureBox.Location = new System.Drawing.Point(3, 66);
+            this.populationPictureBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.populationPictureBox.Name = "populationPictureBox";
+            this.populationPictureBox.Size = new System.Drawing.Size(60, 54);
+            this.populationPictureBox.TabIndex = 1;
+            this.populationPictureBox.TabStop = false;
             // 
-            // pictureBox3
+            // economyPictureBox
             // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 82);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(52, 19);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.economyPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.economyPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.economyPictureBox.Location = new System.Drawing.Point(3, 128);
+            this.economyPictureBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.economyPictureBox.Name = "economyPictureBox";
+            this.economyPictureBox.Size = new System.Drawing.Size(60, 54);
+            this.economyPictureBox.TabIndex = 2;
+            this.economyPictureBox.TabStop = false;
             // 
-            // pictureBox4
+            // religionPicturBox
             // 
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 109);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(52, 20);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.religionPicturBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.religionPicturBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.religionPicturBox.Location = new System.Drawing.Point(3, 190);
+            this.religionPicturBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.religionPicturBox.Name = "religionPicturBox";
+            this.religionPicturBox.Size = new System.Drawing.Size(60, 54);
+            this.religionPicturBox.TabIndex = 3;
+            this.religionPicturBox.TabStop = false;
             // 
-            // military_PB
+            // militaryProgressBar
             // 
-            this.military_PB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.military_PB.Location = new System.Drawing.Point(61, 4);
-            this.military_PB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.military_PB.Name = "military_PB";
-            this.military_PB.Size = new System.Drawing.Size(165, 31);
-            this.military_PB.TabIndex = 4;
+            this.militaryProgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.militaryProgressBar.Location = new System.Drawing.Point(69, 4);
+            this.militaryProgressBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.militaryProgressBar.Name = "militaryProgressBar";
+            this.militaryProgressBar.Size = new System.Drawing.Size(187, 54);
+            this.militaryProgressBar.TabIndex = 4;
             // 
-            // population_PB
+            // populationProgressBar
             // 
-            this.population_PB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.population_PB.Location = new System.Drawing.Point(61, 43);
-            this.population_PB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.population_PB.Name = "population_PB";
-            this.population_PB.Size = new System.Drawing.Size(165, 31);
-            this.population_PB.TabIndex = 5;
+            this.populationProgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.populationProgressBar.Location = new System.Drawing.Point(69, 66);
+            this.populationProgressBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.populationProgressBar.Name = "populationProgressBar";
+            this.populationProgressBar.Size = new System.Drawing.Size(187, 54);
+            this.populationProgressBar.TabIndex = 5;
             // 
-            // progressBar3
+            // economyProgressBar
             // 
-            this.progressBar3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar3.Location = new System.Drawing.Point(61, 82);
-            this.progressBar3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(165, 19);
-            this.progressBar3.TabIndex = 6;
+            this.economyProgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.economyProgressBar.Location = new System.Drawing.Point(69, 128);
+            this.economyProgressBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.economyProgressBar.Name = "economyProgressBar";
+            this.economyProgressBar.Size = new System.Drawing.Size(187, 54);
+            this.economyProgressBar.TabIndex = 6;
             // 
-            // progressBar4
+            // religionProgressBar
             // 
-            this.progressBar4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar4.Location = new System.Drawing.Point(61, 109);
-            this.progressBar4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(165, 20);
-            this.progressBar4.TabIndex = 7;
+            this.religionProgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.religionProgressBar.Location = new System.Drawing.Point(69, 190);
+            this.religionProgressBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.religionProgressBar.Name = "religionProgressBar";
+            this.religionProgressBar.Size = new System.Drawing.Size(187, 54);
+            this.religionProgressBar.TabIndex = 7;
             // 
             // flowLayoutPanel2
             // 
@@ -209,10 +209,10 @@ namespace TextRPG
             this.Name = "Esterrier";
             this.Text = "Esterrier";
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.military_PBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.population_PBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.militaryPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.populationPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.economyPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.religionPicturBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,14 +223,14 @@ namespace TextRPG
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox military_PBox;
-        private System.Windows.Forms.PictureBox population_PBox;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.ProgressBar military_PB;
-        private System.Windows.Forms.ProgressBar population_PB;
-        private System.Windows.Forms.ProgressBar progressBar3;
-        private System.Windows.Forms.ProgressBar progressBar4;
+        private System.Windows.Forms.PictureBox militaryPictureBox;
+        private System.Windows.Forms.PictureBox populationPictureBox;
+        private System.Windows.Forms.PictureBox economyPictureBox;
+        private System.Windows.Forms.PictureBox religionPicturBox;
+        private System.Windows.Forms.ProgressBar militaryProgressBar;
+        private System.Windows.Forms.ProgressBar populationProgressBar;
+        private System.Windows.Forms.ProgressBar economyProgressBar;
+        private System.Windows.Forms.ProgressBar religionProgressBar;
     }
 }
 
