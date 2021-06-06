@@ -39,7 +39,7 @@ namespace ITBeacon
         {
             if (Metadata_DGV.SelectedCells.Count < 1)
                 return;
-            var cmdText = $"DELETE FROM {Tables_LB.SelectedItem} WHERE id IN (";
+            var cmdText = $"DELETE FROM {Tables_LB.SelectedItem} WHERE {Metadata_DGV.Columns[0].Name} IN (";
             for (int i = 0; i < Metadata_DGV.SelectedCells.Count; i++)
                 cmdText += $"\'{Metadata_DGV.Rows[Metadata_DGV.SelectedCells[i].RowIndex].Cells[0].Value}\', ";
             cmdText = cmdText.Remove(cmdText.Length - 2, 2) + ')';
