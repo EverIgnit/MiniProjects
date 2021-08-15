@@ -1,12 +1,10 @@
-﻿namespace Esterrier.GameElements.GameWorld
+﻿namespace Esterrier.GameElements.GameWorld;
+using KingdomManagement;
+class GameWorldInfo
 {
-    using KingdomManagement;
-    class GameWorldInfo
+    public Kingdom UserKingdom { get; set; }
+    public GameWorldInfo(Kingdom userKingdom)
     {
-        public Kingdom UserKingdom { get; set; }
-        public GameWorldInfo(Kingdom userKingdom)
-        {
-            UserKingdom = userKingdom;
-        }
+        UserKingdom = userKingdom;
     }
 }
