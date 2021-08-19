@@ -5,15 +5,15 @@ class Quiz
     public Quiz()
     {
         int score = 2;
-        var questions = new[]
+        (text, answer) questions = new[]
         {
             ("Столица Беларуси", "Минск"),
             ("Столица Украины", "Киев"),
             ("Столица России","Москва"),
             ("Мяу?", "Мяу")
         };
-        foreach (var pair in questions)
-            Ask(pair.Item1, pair.Item2, ref score, questions.Length);
+        foreach (var question in questions)
+            Ask(question.text, question.answer, ref score, questions.Length);
     }
     static void Ask(string ques, string ans, ref int score, int nquest)
     {
